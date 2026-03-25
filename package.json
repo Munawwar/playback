@@ -1,0 +1,61 @@
+{
+  "name": "@firstack/playback",
+  "version": "0.1.0",
+  "description": "Record and replay function calls for unit testing",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    "./": "./index.js",
+    "./intercept": "./intercept.js",
+    "./interceptAllMethods": "./interceptAllMethods.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "tape tests/*.test.js"
+  },
+  "keywords": [
+    "vcr",
+    "testing",
+    "mock",
+    "fixture",
+    "intercept",
+    "record",
+    "replay",
+    "playback"
+  ],
+  "author": "Munawwar",
+  "license": "MIT",
+  "homepage": "https://github.com/Munawwar/firstack-playback",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munawwar/firstack-playback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Munawwar/firstack-playback/issues"
+  },
+  "dependencies": {
+    "diff": "^5.0.0",
+    "fast-stable-stringify": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.1",
+    "esmock": "^2.7.2",
+    "tap-arc": "^1.0.0",
+    "tape": "^5.0.0",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "intercept.js",
+    "intercept.d.ts",
+    "interceptAllMethods.js",
+    "interceptAllMethods.d.ts",
+    "types/"
+  ]
+}

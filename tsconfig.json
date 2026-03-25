@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    // Target and module settings for Node.js ESM
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext"],
+    
+    // Only generate declaration files, no JS output
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    
+    // Output directory for .d.ts files
+    "rootDir": "./",
+    
+    // JSDoc and type checking settings
+    "allowJs": true,
+    "checkJs": true,
+    
+    // Strict type checking (recommended for JSDoc projects)
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": false,
+    
+    // Module resolution and interop
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    
+    // Skip lib checking for faster builds
+    "skipLibCheck": true
+  },
+  "include": [
+    "index.js",
+    "intercept.js",
+    "interceptAllMethods.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.js",
+    "**/*.spec.js",
+    "types/**/*"
+  ]
+}
