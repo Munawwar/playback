@@ -1,6 +1,6 @@
 # Node.js Test Playback
 
-Record and replay methods (functions) for testing purposes on Node.js.
+Record and replay methods (functions) for testing purposes on Node.js. `npm add @firstack/playback`.
 
 ## Why?
 
