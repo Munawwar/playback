@@ -73,6 +73,8 @@ You will see a file named `getLatest-1a2b3c4d5e6f7g8.json` created in the `funct
 
 Then onwards running: `node tests/esmock.test.js` or `FIXTURE=read node tests/esmock.test.js` will ensure method calls are all read from fixture files.
 
+The unit tests of this library uses this library itself for creating fixtures. So you can check tests/ directory.
+
 ## Requirements and Limitations
 
 **Important limitations for fixture recording:**
