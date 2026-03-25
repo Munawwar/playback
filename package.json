@@ -1,6 +1,6 @@
 {
   "name": "@firstack/playback",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Record and replay function calls for unit testing",
   "type": "module",
   "types": "index.d.ts",
@@ -27,13 +27,13 @@
   ],
   "author": "Munawwar",
   "license": "MIT",
-  "homepage": "https://github.com/Munawwar/firstack-playback",
+  "homepage": "https://github.com/Munawwar/playback",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Munawwar/firstack-playback.git"
+    "url": "git+https://github.com/Munawwar/playback.git"
   },
   "bugs": {
-    "url": "https://github.com/Munawwar/firstack-playback/issues"
+    "url": "https://github.com/Munawwar/playback/issues"
   },
   "dependencies": {
     "diff": "^5.0.0",
